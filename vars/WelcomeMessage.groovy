@@ -3,7 +3,7 @@ def call() {
 	echo "Update the library function with new script logic"
 }
 
-def DisplayAnotherMessage(msg) {
+def DisplayAnotherMessage() {
   //echo "Message received is: ${msg}"
 	echo "Message received is: testing.."
 }
