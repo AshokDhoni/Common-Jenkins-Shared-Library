@@ -3,8 +3,9 @@ def call() {
 	echo "Update the library"
 }
 
-def displayAnotherMessage(String msg) {
+def displayAnotherMessage(msg) {
   echo "Message received is: ${msg}"
+	sh 'ls'
 
 }
 
