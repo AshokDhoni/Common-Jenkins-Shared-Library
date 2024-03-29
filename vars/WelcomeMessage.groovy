@@ -10,6 +10,11 @@ def warning(message) {
     }
 }
 
+def call()
+{
+    echo "${msg1} & ${msg2}"
+   mul();
+}
 
 def call(msg1, msg2)
 {
