@@ -12,8 +12,7 @@ def warning(message) {
 
 def call()
 {
-    echo "${msg1} & ${msg2}"
-   mul();
+    echo "Welcome"
 }
 
 def call(msg1, msg2)
