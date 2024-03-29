@@ -9,7 +9,7 @@ def displayAnotherMessage(msg) {
 
 }
 
-def call2(msg) {
+def call2(java.lang.String msg) {
 	echo "Welcome ${msg}"
 }
 
