@@ -9,7 +9,7 @@ def displayAnotherMessage(msg) {
 
 }
 
-def test2() {
-	echo "test2"
-
+def call(msg) {
+	echo "Welcome ${msg}"
+}
 }
