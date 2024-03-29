@@ -7,3 +7,8 @@ def displayAnotherMessage(msg) {
   echo "Message received is: ${msg}"
 
 }
+
+def test2() {
+	echo "test2"
+
+}
