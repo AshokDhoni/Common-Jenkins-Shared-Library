@@ -1,15 +1,7 @@
-def call1() {
-	echo "Welcome to Jenkins Shared Library"
-	echo "Update the library"
+def info(message) {
+    echo "INFO: ${message}"
 }
 
-def displayAnotherMessage(msg) {
-  echo "Message received is: ${msg}"
-	sh 'ls'
-
+def warning(message) {
+    echo "WARNING: ${message}"
 }
-
-def call2(java.lang.String msg) {
-	echo "Welcome ${msg}"
-}
-
