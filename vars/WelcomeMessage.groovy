@@ -4,5 +4,6 @@ def call() {
 }
 
 def DisplayAnotherMessage(msg) {
-  echo "Message received is: ${msg}"
+  //echo "Message received is: ${msg}"
+	echo "Message received is: testing.."
 }
