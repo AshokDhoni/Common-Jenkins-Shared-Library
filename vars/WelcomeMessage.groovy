@@ -18,7 +18,7 @@ def call(msg1, msg2)
 def call(msg1, msg2)
 {
     echo "${msg1} & ${msg2}"
-    mul();
+   
 }
 
 def mul() {
