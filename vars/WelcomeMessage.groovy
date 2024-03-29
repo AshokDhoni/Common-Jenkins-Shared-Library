@@ -1,4 +1,4 @@
-def call() {
+def call1() {
 	echo "Welcome to Jenkins Shared Library"
 	echo "Update the library"
 }
@@ -9,7 +9,7 @@ def displayAnotherMessage(msg) {
 
 }
 
-def call(msg) {
+def call2(msg) {
 	echo "Welcome ${msg}"
 }
 
